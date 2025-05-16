@@ -62,7 +62,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'boutique_ado.urls'#
+ROOT_URLCONF = 'boutique_ado.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -85,7 +85,7 @@ TEMPLATES = [
             ],
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
-                'crispy_forms.templatetags.crispy_forms_feilds',
+                'crispy_forms.templatetags.crispy_forms_field',
             ]
         },
     },
